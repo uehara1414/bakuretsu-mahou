@@ -2,7 +2,6 @@ const electron = require('electron');
 const {app} = require('electron');
 const {BrowserWindow} = require('electron');
 const {globalShortcut} = require('electron');
-const {Tray} = require('tray');
 
 app.on('ready', function(){
 

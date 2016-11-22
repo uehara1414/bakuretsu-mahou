@@ -2,12 +2,21 @@ const electron = require('electron');
 const {app} = require('electron');
 const {BrowserWindow} = require('electron');
 const {globalShortcut} = require('electron');
+const {Menu} = require('electron');
+const {Tray} = require('electron');
 
 app.on('ready', function(){
 
     const ret = globalShortcut.register('CommandOrControl+X', () => {
         win.toggleDevTools();
     });
+
+    let appIcon = new Tray(__dirname + "/bakuretsu-icon.png");
+    const contextMenu = Menu.buildFromTemplate([
+        {label: '終了', click() {app.quit();}},
+    ]);
+
+    appIcon.setContextMenu(contextMenu);
 
     const windowWidth = 600;
     const windowHeight = 350;

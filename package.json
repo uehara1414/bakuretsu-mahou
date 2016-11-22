@@ -1,0 +1,19 @@
+{
+  "name": "bakuretsu-mahou",
+  "version": "0.1.0",
+  "description": "これが人類最大の威力の攻撃手段！！ これこそが！究極の攻撃魔法. エクスプロォージョンッ！！！",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uehara1414/bakuretsu-mahou.git"
+  },
+  "author": "uehara1414",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/uehara1414/bakuretsu-mahou/issues"
+  },
+  "homepage": "https://github.com/uehara1414/bakuretsu-mahou#readme"
+}

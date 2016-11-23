@@ -36,7 +36,10 @@ npm install -g electron-packager
 
 ## ライセンス
 ### bakuretsu-mahou.gif
-[Creative Commons Attribution 3.0](https://creativecommons.org/licenses/by/3.0/)
+[Creative Commons Attribution 3.0](https://creativecommons.org/licenses/by/3.0/)  
+Author:Pigment Ajans  
+[https://www.youtube.com/user/specialstockfootage/videos](https://www.youtube.com/user/specialstockfootage/videos)  
+The original is converted to the gif format and made transparented.
 
 ### 本ソフト
 [MIT](https://github.com/uehara1414/bakuretsu-mahou/blob/master/LICENSE)
